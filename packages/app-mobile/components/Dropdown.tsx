@@ -315,6 +315,7 @@ const useStyles = ({ itemCount, headerLayout, itemStyle, itemWrapperStyle, itemL
 			},
 			headerArrow: {
 				color: (headerStyle as TextStyle)?.color,
+				opacity: (headerStyle as TextStyle)?.opacity,
 				fontSize: 16,
 				marginStart: 6,
 				flex: 0,
